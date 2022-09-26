@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body{
+    /* overflow-y: hidden; */
+    overflow-x:hidden;
+    margin:0
+}
+
+.menuBar{
+    position: fixed;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.897);
+    width: 100vw;
+    display:flex;
+    flex-direction: row;
+    /* text-align: center; */
+}
+
+.mainTitle{
+    margin-left: 3px;
+    position: relative;
+    font-size:20px;
+    font-family: 'Poppins', sans-serif;
+    align-self: center;
+}
