@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.question {
+    font-size: 70px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.choiceContainer{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+
+.choiceContainer .div{
+    display: none
+}
+
+.info{
+    white-space: pre-wrap;
+}
+
+div::-webkit-scrollbar{
+    width: 4px;
+    background-color: rgba(255, 255, 255, 0.897);
+   
+}
+
+div::-webkit-scrollbar-thumb{
+    background-color:rgba(2, 100, 180, 0.616) ;
+    border-radius: 4px;
+}
+
+.readings {
+    /* font-size: 70px; */
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
